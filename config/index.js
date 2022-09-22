@@ -80,13 +80,11 @@ export const USER_CONFIG = {
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "小毅宝贝", "year": "2003", "date": "09-08"},
         {"type": "节日", "name": "在一起的日子", "year": "2022", "date": "08-28"},
-        
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
         {"keyword": "love_day", date: "2022-8-28"},
-        
       ]
     },
     {
@@ -134,7 +132,7 @@ export const USER_CONFIG = {
    */
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "LEjF9fTvEus9yPgVyeSttg-JbWNMr8U0CmyaqcGMhco",
   
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
