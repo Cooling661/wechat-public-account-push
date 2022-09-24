@@ -62,7 +62,7 @@ export const USER_CONFIG = {
       // 想要发送的人的名字
       name: "小毅宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ooxw26H2xh9ujfIXDc5_Z0vs7U4s",
+      id: "ooxw26H2xh9ujfIXDc5_Z0vs7U4s","ooxw26LZlcWcO9qxsbORMmx4o1cI",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "LEjF9fTvEus9yPgVyeSttg-JbWNMr8U0CmyaqcGMhco",
       // 所在省份
@@ -79,8 +79,7 @@ export const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "小毅宝贝", "year": "2003", "date": "09-08"},
-        {"type": "节日", "name": "在一起的日子", "year": "2022", "date": "08-28"},
-      ],
+             ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
